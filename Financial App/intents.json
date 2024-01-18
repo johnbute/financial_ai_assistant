@@ -1,0 +1,65 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": ["Hey", "Hello", "What's up?", "Hi", "Good day"],
+            "responses": ["Hello", "Hey John"],
+            "context_set": ""
+        },
+        {
+            "tag": "remove_portfolio",
+            "patterns": ["Remove a stock from my portfolio", "Remove a stock", "Remove a stock from my portfolio"],
+            "responses": ["Removing Stock"],
+            "context_set": ""
+        },
+        {
+            "tag": "plot_chart",
+            "patterns": ["I want you to plot a stock price", "Please plot a chart", "Plot a stock"],
+            "responses": ["Plotting Chart"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "portfolio_gains",
+            "patterns": ["Calculate my portfolio gains", "What are my gains?", "Portfolio performance"],
+            "responses": ["Calculating Portfolio Gains"],
+            "context_set": ""
+        },
+        {
+            "tag": "portfolio_worth",
+            "patterns": ["What is the worth of my portfolio?", "Portfolio value", "Current portfolio worth"],
+            "responses": ["Calculating Portfolio Worth"],
+            "context_set": ""
+        },
+        {
+            "tag": "show_portfolio",
+            "patterns": ["Show me my investments", "Show me my portfolio"],
+            "responses": ["Showing Portfolio"],
+            "context_set": ""
+        },
+        {
+            "tag": "add_portfolio",
+            "patterns": ["Add a stock to my portfolio", "Add a stock", "Add a stock to my portfolio"],
+            "responses": ["Adding Stock"],
+            "context_set": ""
+        },
+        {
+            "tag": "show_stock_price",
+            "patterns": ["Show me the price of a stock", "What is the price of a stock", "Stock price"],
+            "responses": ["Showing Stock Price"],
+            "context_set": ""
+        },
+        {
+            "tag": "greetings_response",
+            "patterns": ["hi", "hello", "hey", "good morning", "good afternoon", "good evening"],
+            "responses": ["Hello! How can I assist you today?", "Hi there! What can I do for you?"],
+            "context_set": ""
+        },
+        {
+            "tag": "unknown",
+            "patterns": ["*"],
+            "responses": ["I'm sorry, I didn't understand that. Could you please be more specific?"],
+            "context_set": ""
+        }
+    ]
+}
